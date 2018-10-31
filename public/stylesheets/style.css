@@ -479,13 +479,9 @@ a {
 }
 
 .card-inner .card-wrap {
-    padding: 30px 30px 30px 40px;
+    padding: 30px 30px 0px 40px;
     overflow: visible;
     height: auto;
-}
-
-.card-inner:last-child {
-    margin-bottom: 50px;
 }
 
 
@@ -499,9 +495,6 @@ a {
     padding: 30px;
   }
 
-  .card-inner:last-child {
-    margin-bottom: 10px;
-  }
 
 }
 
@@ -512,7 +505,7 @@ a {
 }
 
 .content:last-child {
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .content .title {
