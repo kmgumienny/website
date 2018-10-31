@@ -1,48 +1,206 @@
 <body>
-<img src="images/orange.jpg" style="position: absolute; object-fit: cover">
 
-<div class="page">
-    <div class="background"></div>
+<div class="page"></div>
+
+<div class="background" style="background-image: url(/images/orange.jpg)"></div>
+
+<div class="preloader" style="display: none;">
+    <div class="centrize full-width">
+        <div class="vertical-center">
+            <div class="spinner" style="display: none;">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+
+    <!--
+        Header
+    -->
+    <header class="header">
+
+        <!-- menu -->
+        <div class="top-menu">
+            <ul>
+                <li class="active">
+                    <a href="#about-card">
+                        <span class="icon ion-person"></span>
+                        <span class="link">About</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#resume-card">
+                        <span class="icon ion-android-list"></span>
+                        <span class="link">Resume</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#works-card">
+                        <span class="icon ion-paintbrush"></span>
+                        <span class="link">Works</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#blog-card">
+                        <span class="icon ion-chatbox-working"></span>
+                        <span class="link">Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contacts-card">
+                        <span class="icon ion-at"></span>
+                        <span class="link">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div style="background-image: url(/images/orange.jpg);"></div>
 
     <div class="card-started" id="home-card">
-    <div class="page">
-    <!--
-        Profile
-    -->
-    <div class="profile">
+        <div class="page">
+            <!--
+                Profile
+            -->
+            <div class="profile">
 
-        <!-- profile image -->
-        <div class="slide" style="background-image: url(/images/orange.jpg);"></div>
+                <!-- profile image -->
+                <div class="slide" style="background-image: url(/images/orange.jpg);"></div>
 
-        <!-- profile photo -->
-        <div class="image">
-            <img src="images/profile.jpeg" alt="">
+                <!-- profile photo -->
+                <div class="image">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+
+                <!-- profile titles -->
+                <div class="title">Kamil Gumienny</div>
+                <div class="subtitle">Computer Science WPI Class of 2020</div>
+
+                <!-- profile socials -->
+                <div class="social">
+                    <a target="_blank" href="https://github.com/kmgumienny"><span class="fab fa-github"></span></a>
+                </div>
+
+                <!-- profile buttons -->
+                <div class="lnks">
+                    <a href="#" class="lnk">
+                        <span class="text">Download CV</span>
+                        <span class="ion ion-archive"></span>
+                    </a>
+                    <a href="#" class="lnk discover">
+                        <span class="text">Contact Me</span>
+                        <span class="arrow"></span>
+                    </a>
+                </div>
+
+            </div>
+
         </div>
+    </div>
+    <div class="card-inner animated active" id="about-card">
+        <div class="card-wrap">
 
-        <!-- profile titles -->
-        <div class="title">Kamil Gumienny</div>
-        <div class="subtitle">Computer Science WPI Class of 2020</div>
+            <!--
+                About
+            -->
+            <div class="content about">
 
-        <!-- profile socials -->
-        <div class="social">
-            <a target="_blank" href="https://github.com/kmgumienny"><span class="fab fa-github"></span></a>
+                <!-- title -->
+                <div class="title">About Me</div>
+
+                <!-- content -->
+                <div class="row">
+                    <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                        <div class="text-box">
+                            <p>
+                                I am Ryan Adlard, web designer from USA, California. I have rich experience in
+                                web site design and building and customization, also I am good at wordpress.
+                                I love to talk with you about our unique.
+                            </p>
+                        </div>
+                        <div class="info-list">
+                            <ul>
+                                <li><strong>Age . . . . .</strong> 24</li>
+                                <li><strong>Residence . . . . .</strong> USA</li>
+                                <li><strong>Freelance . . . . .</strong> Available</li>
+                                <li><strong>Address . . . . .</strong> California, USA</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+
+            <!--
+                Services
+            -->
+            <div class="content services">
+
+                <!-- title -->
+                <div class="title">My Services</div>
+
+                <!-- content -->
+                <div class="row service-items border-line-v">
+
+                    <!-- service item -->
+                    <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                        <div class="service-item">
+                            <div class="icon"><span class="ion ion-code"></span></div>
+                            <div class="name">Web Development</div>
+                            <p>
+                                Modern and mobile-ready website that will help you
+                                reach all of your marketing.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- service item -->
+                    <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                        <div class="service-item">
+                            <div class="icon"><span class="ion ion-music-note"></span></div>
+                            <div class="name">Music Writing</div>
+                            <p>
+                                Music copying, transcription, arranging and composition services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- service item -->
+                    <div class="col col-d-6 col-t-6 col-m-12">
+                        <div class="service-item">
+                            <div class="icon"><span class="ion ion-speakerphone"></span></div>
+                            <div class="name">Advetising</div>
+                            <p>
+                                Advertising services include television, radio, print, mail and web.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- service item -->
+                    <div class="col col-d-6 col-t-6 col-m-12">
+                        <div class="service-item">
+                            <div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
+                            <div class="name">Game Development</div>
+                            <p>
+                                Developing memorable and unique mobile android, ios games.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+
+            </div>
         </div>
-
-        <!-- profile buttons -->
-        <div class="lnks">
-            <a href="#" class="lnk">
-                <span class="text">Download CV</span>
-                <span class="ion ion-archive"></span>
-            </a>
-            <a href="#" class="lnk discover">
-                <span class="text">Contact Me</span>
-                <span class="arrow"></span>
-            </a>
-        </div>
-
     </div>
 
-</div>
     </div>
+</div>]
 </div>
 </body>
