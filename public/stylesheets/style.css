@@ -18,7 +18,10 @@ body {
   line-height: 1.6em;
 }
 
-/* ================ The Timeline ================ */
+.scrollable {
+  height: 400px;
+  overflow-y: scroll;
+}
 
 .timeline {
   position: relative;
@@ -74,9 +77,10 @@ body {
   float: right;
 }
 
+
 .flag-wrapper {
   position: relative;
-  display: inline-block;
+  display: inline-grid;
 
   text-align: center;
 }
@@ -148,70 +152,71 @@ body {
   .direction-r .flag:before {
     left: -36px;
   }
+
+  .direction-l .flag:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(248, 248, 248);
+    border-width: 8px;
+    pointer-events: none;
+  }
+
+  .direction-r .flag:after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(248, 248, 248);
+    border-width: 8px;
+    pointer-events: none;
+  }
 }
 
-.direction-l .flag:after {
-  content: "";
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  height: 0;
-  width: 0;
-  margin-top: -8px;
-  border: solid transparent;
-  border-left-color: rgb(248,248,248);
-  border-width: 8px;
-  pointer-events: none;
-}
+  .time-wrapper {
+    display: inline;
 
-.direction-r .flag:after {
-  content: "";
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  height: 0;
-  width: 0;
-  margin-top: -8px;
-  border: solid transparent;
-  border-right-color: rgb(248,248,248);
-  border-width: 8px;
-  pointer-events: none;
-}
+    line-height: 1em;
+    font-size: 0.66666em;
+    color: rgb(250, 80, 80);
+    vertical-align: middle;
+  }
 
-.time-wrapper {
-  display: inline;
+  .direction-l .time-wrapper {
+    float: left;
+  }
 
-  line-height: 1em;
-  font-size: 0.66666em;
-  color: rgb(250,80,80);
-  vertical-align: middle;
-}
+  .direction-r .time-wrapper {
+    float: right;
+  }
 
-.direction-l .time-wrapper {
-  float: left;
-}
+  .time {
+    display: inline-block;
+    padding: 4px 6px;
+    background: rgb(248, 248, 248);
+  }
 
-.direction-r .time-wrapper {
-  float: right;
-}
+  .desc {
+    margin: 1em 0.75em 0 0;
 
-.time {
-  display: inline-block;
-  padding: 4px 6px;
-  background: rgb(248,248,248);
-}
+    font-size: 0.77777em;
+    font-style: italic;
+    line-height: 1.5em;
+  }
 
-.desc {
-  margin: 1em 0.75em 0 0;
+  .direction-r .desc {
+    margin: 1em 0 0 0.75em;
+  }
 
-  font-size: 0.77777em;
-  font-style: italic;
-  line-height: 1.5em;
-}
-
-.direction-r .desc {
-  margin: 1em 0 0 0.75em;
-}
 
 /* ================ Timeline Media Queries ================ */
 
@@ -246,13 +251,13 @@ body {
   .direction-l .flag:before,
   .direction-r .flag:before {
     position: absolute;
-    top: -30px;
-    left: 53%;
+    top: -15px;
+    left: 50%;
     content: ' ';
     display: block;
     width: 12px;
     height: 12px;
-    margin-left: -9px;
+    margin-left: -6px;
     background: #fff;
     border-radius: 10px;
     border: 4px solid rgb(255,80,80);
