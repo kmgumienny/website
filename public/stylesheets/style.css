@@ -912,7 +912,9 @@ a {
   }
 
   .card-inner .card-wrap {
-    padding: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
   }
 
 
@@ -973,7 +975,7 @@ a {
 /* 4.1 About */
 .info-list ul li {
   display: inline-block;
-  width: 48%;
+  width: auto;
   line-height: 1.6;
 }
 
@@ -985,13 +987,7 @@ a {
   text-transform: uppercase;
 }
 
-@media (max-width: 560px) {
-  .info-list ul li {
-    display: block;
-    width: auto;
-  }
 
-}
 
 /* 4.2 Services */
 .service-items {
