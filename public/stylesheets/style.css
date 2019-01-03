@@ -108,7 +108,7 @@ body {
   box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 992px) {
 
   .direction-l .flag:before,
   .direction-r .flag:before {
@@ -131,7 +131,7 @@ body {
   }
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 992px) {
 
   .direction-l .flag:before,
   .direction-r .flag:before {
@@ -220,7 +220,7 @@ body {
 
 /* ================ Timeline Media Queries ================ */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 992px) {
 
   .timeline {
     width: 100%;

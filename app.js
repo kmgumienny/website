@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var hbs = require('express-handlebars');
+var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
 
@@ -26,8 +27,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 app.use('/', indexRouter);
 app.use(express.static('routes'));
+
 
 // // catch 404 and forward to error handler
 // app.use(function(req, res, next) {
