@@ -80,15 +80,19 @@
                 <div class="subtitle">Computer Science WPI Class of 2020</div>
 
                 <!-- profile socials -->
-                <div class="social">
-                    <a target="_blank" href="https://github.com/kmgumienny"><span class="fab fa-github"></span></a>
-                </div>
+                <!--                <div class="social">-->
+                <!--                    <a target="_blank" href="https://github.com/kmgumienny"><span class="fab fa-github"></span></a>-->
+                <!--                </div>-->
 
                 <!-- profile buttons -->
                 <div class="lnks">
-                    <a href="upload/kmgumienny_resume.pdf" download="kmgumienny_Resume" class="lnk">
+                    <a href="upload/kmgumienny_resume.pdf" download="kmgumienny_resume" class="lnk">
                         <span class="text">Download CV</span>
                         <span style="padding-left: 5px" class="fas fa-file fa-lg"></span>
+                    </a>
+                    <a href="https://github.com/kmgumienny" download="kmgumienny_resume" class="lnk">
+                        <span class="text">Github</span>
+                        <span style="padding-left: 5px" class="fab fa-github"></span>
                     </a>
                     <a href="mailto:kmgumienny@gmail.com" target="_top" class="lnk discover">
                         <span class="text">Contact Me</span>
@@ -117,9 +121,12 @@
                         <div class="text-box">
                             <p>
                                 I'm Kamil Gumienny, a computer science student at Worcester Polytechnic Institute.
-                                Throughout high school and college I have been exposed to the many different domains of CS such as
-                                systems programming, database management, web programming, and cyber security to name a few.
-                                Ultimately, my goal is to find a career in the industry related to Cyber Security or security development.
+                                Throughout high school and college I have been exposed to the many different domains of
+                                CS such as
+                                systems programming, database management, web programming, and cyber security to name a
+                                few.
+                                Ultimately, my goal is to find a career in the industry related to Cyber Security such
+                                as Red Team or Software Security Development.
                             </p>
                         </div>
                         <div class="info-list">
@@ -182,7 +189,7 @@
                         <p style="margin-bottom: 0px">Python</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
-                                 style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%
+                                 style="width: 60%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">60%
                             </div>
                             <div style="padding-bottom: 5px"></div>
 
@@ -212,7 +219,7 @@
                         <p style="margin-bottom: 0px">Racket</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
-                                 style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%
+                                 style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">30%
                             </div>
                             <div style="padding-bottom: 5px"></div>
 
@@ -635,8 +642,6 @@
                                 </ul>
                             </li>
                         </ul>
-
-
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -708,17 +713,37 @@
                                      </div>
                                      <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
                                  </div>
-                             </li>
-
-                             <li>
-                                 <div class="direction-r">
-                                     <div class="flag-wrapper">
-                                         <span class="flag">Harvard University</span>
-                                         <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
-                                     </div>
-                                     <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
-                                 </div>
                              </li>-->
+
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Single-use Server Major Qualifying Project</span>
+                                        <span class="time-wrapper"><span class="time">Aug 2019 - Mar 2020</span></span>
+                                    </div>
+                                    <div class="desc">During my senior year I did research in the field of cyber security.
+                                        I worked on a team of three to take InstructAssist, WPI Computer Science Department's
+                                        web application for class management (student assignment submission and grade checking).
+                                        The purpose of our study was to test a new container-based
+                                        framework for hosting WPI’s InstructAssist. The
+                                        current web hosting framework follows a one-to-many model where multiple users
+                                        at once are all connected to the same web server. This is particularly
+                                        vulnerable to attacks considering that it is difficult to distinguish users and
+                                        their respective privileges. The new container-based framework will instead use
+                                        a one-to-one model, where each user will be connected to a web server in a
+                                        container created specifically for that user’s session. Our proposed method of
+                                        achieving this is by designing a manager to listen for connections to the
+                                        InstructAssist website, authenticate users through WPI Central Authentication
+                                        Service, and then create a container with a web server inside for that
+                                        connection. Once a user has finished their session, the manager will destroy
+                                        that specific user’s container. This change in framework would allow
+                                        organizations to limit the access privileges associated with each web server
+                                        instance and would limit persistent and privilege escalation attacks.
+                                        Additionally, the framework would protect the underlying server machine and its
+                                        software through the abstraction layer between the host and its containers.
+                                    </div>
+                                </div>
+                            </li>
 
                             <li>
                                 <div class="direction-l">
@@ -732,7 +757,8 @@
                                         integration. My team of four students was able to conduct a formal program
                                         evaluation of the organization's cooking program and devise program evaluation
                                         tool that I later hosted online through Node.js. The formal report for the
-                                        project can be found <a href="https://web.wpi.edu/Pubs/E-project/Available/E-project-050219-112352/">here</a>.
+                                        project can be found <a
+                                                href="https://web.wpi.edu/Pubs/E-project/Available/E-project-050219-112352/">here</a>.
                                     </div>
                                 </div>
                             </li>
@@ -744,10 +770,12 @@
                                         <span class="flag">German Study Abroad</span>
                                         <span class="time-wrapper"><span class="time">Mar-Jul 2018</span></span>
                                     </div>
-                                    <div class="desc">After taking three German language classes at WPI, I applied to go to
+                                    <div class="desc">After taking three German language classes at WPI, I applied to go
+                                        to
                                         Konstanz, Germany and attend the Konstanz University of Applied Sciences (HTWG).
                                         I spent my weekdays going to courses on the Germany language, culture, and
-                                        history and traveled around Germany, Italy, Switzerland, and Austria in my free time to expand
+                                        history and traveled around Germany, Italy, Switzerland, and Austria in my free
+                                        time to expand
                                         my global competency.
                                     </div>
                                 </div>
