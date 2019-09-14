@@ -48,13 +48,13 @@
                         <span class="icon ion-chatbox-working"></span>
                         <span class="link">Resume</span>
                     </a>
-                <!--</li>-->
-                <!--<li>-->
+                    <!--</li>-->
+                    <!--<li>-->
                     <!--<a href="#contacts-card">-->
-                        <!--<span class="icon ion-at"></span>-->
-                        <!--<span class="link">Contact</span>-->
+                    <!--<span class="icon ion-at"></span>-->
+                    <!--<span class="link">Contact</span>-->
                     <!--</a>-->
-                <!--</li>-->
+                    <!--</li>-->
             </ul>
         </div>
 
@@ -117,15 +117,17 @@
                         <div class="text-box">
                             <p>
                                 I'm Kamil Gumienny, a computer science student at Worcester Polytechnic Institute.
-                                Throughout high school and college I have been exposed to many different programming languages and their uses. I have yet
-                                to find one I don't enjoy. Ultimately, my goal is to find a career in the Cybersecurity
-                                industry.
+                                Throughout high school and college I have been exposed to the many different domains of CS such as
+                                systems programming, database management, web programming, and cyber security to name a few.
+                                Ultimately, my goal is to find a career in the industry related to Cyber Security or security development.
                             </p>
                         </div>
                         <div class="info-list">
                             <ul style="margin-bottom: 0px">
                                 <li><strong>Age &nbsp &nbsp &nbsp &nbsp</strong> 21</li>
-                                <li style="float: right;"><strong>Residence &nbsp &nbsp &nbsp &nbsp</strong> New Jersey, USA</li>
+                                <li style="float: right;"><strong>Residence &nbsp &nbsp &nbsp &nbsp</strong> New Jersey,
+                                    USA
+                                </li>
                             </ul>
                             <!--<ul style="margin-bottom: 0px">-->
                             <!--<li><strong>Education &nbsp &nbsp &nbsp &nbsp</strong> </li>-->
@@ -251,8 +253,67 @@
 
                                     <div>
                                         <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
+                                            Operating Systems</p>
+                                        <a href="https://github.com/kmgumienny/Operating-Systems" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                            Full Repository Here</a>
+                                        <hr class="soften">
+                                    </div>
+
+                                    <hr class="soften">
+
+                                    <li class="submenuList">
+                                        <div style="align-self: center" class="social">
+                                            <div class="social">
+                                                <a target="_blank"
+                                                   href="https://github.com/kmgumienny/Operating-Systems/tree/master/proj2"><span
+                                                        class="fab fa-github fa-2x"></span></a>
+                                            </div>
+                                        </div>
+                                        <p> Written in C++, this was the second assignment in my Operating Systems
+                                            class. This repository features two assignments for the project. I added
+                                            custom
+                                            system calls to a distribution of Ubuntu that I would later intercept with
+                                            loadable
+                                            kernel modules (LKMs). In the first part of the project I intercept the open
+                                            and close
+                                            functions in the kernel so that system logs show which user opened and
+                                            closed which
+                                            files. In the second part of the project, I intercept one of the custom
+                                            system calls I added to
+                                            the kernel and print information regarding system resource usage to make the
+                                            call to
+                                            the kernel.
+                                        </p>
+                                    </li>
+
+                                    <li class="submenuList">
+                                        <div style="align-self: center" class="social">
+                                            <div class="social">
+                                                <a target="_blank"
+                                                   href="https://github.com/kmgumienny/Operating-Systems/tree/master/proj1"><span
+                                                        class="fab fa-github fa-2x"></span></a>
+                                            </div>
+                                        </div>
+                                        <p>Written in C++, this was the first assignment in my Operating Systems class.
+                                            I wrote
+                                            a piece of code that mimics a shell within a shell. Running the code with
+                                            commandline
+                                            arguments executes them by forking off the main code and running either in
+                                            parallel
+                                            to the main code by executing in the background or making the main code wait
+                                            until the forked process finishes. The code then prints the statistics
+                                            involved in
+                                            running a command.
+                                        </p>
+                                    </li>
+
+
+                                    <div>
+                                        <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
                                             Systems Programming</p>
-                                        <a href="https://github.com/kmgumienny/Systems-Programming" target="_blank" style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                        <a href="https://github.com/kmgumienny/Systems-Programming" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
                                             Full Repository Here</a>
                                         <hr class="soften">
                                     </div>
@@ -293,7 +354,8 @@
                                     <div>
                                         <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
                                             Computer Networks</p>
-                                        <a href="https://github.com/kmgumienny/Computer-Networks" target="_blank" style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                        <a href="https://github.com/kmgumienny/Computer-Networks" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
                                             Full Repository Here</a>
                                         <hr class="soften">
                                     </div>
@@ -308,11 +370,16 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>In my Computer Networks course, we reviewed different iterations and proposals for sending
-                                            data over an insecure channel. One of those methods was the Alternating Bit Protocol
-                                            wherein there was some minimal error checking to make sure packets are not getting lost
-                                            and they are arriving in the correct order by sending Ack packets. Given the code that send
-                                            packets and corrupts/loses them, I wrote the code for making sure the right packets are coming through
+                                        <p>In my Computer Networks course, we reviewed different iterations and
+                                            proposals for sending
+                                            data over an insecure channel. One of those methods was the Alternating Bit
+                                            Protocol
+                                            wherein there was some minimal error checking to make sure packets are not
+                                            getting lost
+                                            and they are arriving in the correct order by sending Ack packets. Given the
+                                            code that send
+                                            packets and corrupts/loses them, I wrote the code for making sure the right
+                                            packets are coming through
                                             and what to do if they are not.
                                         </p>
                                     </li>
@@ -321,7 +388,8 @@
                                     <div>
                                         <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
                                             Machine Organization & Assembly Language</p>
-                                        <a href="https://github.com/kmgumienny/Cache-Memory-Simulation" target="_blank" style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                        <a href="https://github.com/kmgumienny/Cache-Memory-Simulation" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
                                             Full Repository Here</a>
                                         <hr class="soften">
                                     </div>
@@ -336,9 +404,12 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>In Machine Organization & Assembly Language, our final project was to write a simulation for
-                                            how cache memory works. I optimized a matrix transpose function to minimize the number of cache
-                                            misses so the performance of accessing data in memory is as quick as possible.
+                                        <p>In Machine Organization & Assembly Language, our final project was to write a
+                                            simulation for
+                                            how cache memory works. I optimized a matrix transpose function to minimize
+                                            the number of cache
+                                            misses so the performance of accessing data in memory is as quick as
+                                            possible.
                                         </p>
                                     </li>
 
@@ -349,13 +420,86 @@
                                 <div class="dropdownlink"><i class="fa fa-terminal" aria-hidden="true"></i> Python
                                     <i class="fa fa-chevron-down" style="float: right;" aria-hidden="true"></i>
                                 </div>
-                                <ul class="submenuItems">
 
+                                <ul class="submenuItems">
 
                                     <div>
                                         <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
+                                            Introduction to Artificial Intelligence</p>
+                                        <a href="https://github.com/kmgumienny/CS4341-Bomberman" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                            Full Repository Here</a>
+                                        <hr class="soften">
+                                    </div>
+
+                                    <li class="submenuList">
+                                        <div style="align-self: center" class="social">
+                                            <div class="social">
+                                                <a target="_blank"
+                                                   href="https://github.com/kmgumienny/connect4_ai"><span
+                                                        class="fab fa-github fa-2x"></span></a>
+                                            </div>
+                                        </div>
+                                        <p> In my Introduction to Artificial intelligence, I used Python to code two
+                                            projects, one individual and the other a team project. For the individual
+                                            project, I learned about the alpha-beta pruning Min-Max algorithm and
+                                            implemented it into an AI
+                                            driven Connect-4 game. The AI "weighs" every possible option it has before
+                                            placing a piece on the board to make sure it will lead to the best odds of
+                                            it winning.
+                                        </p>
+                                    </li>
+                                    <li class="submenuList">
+                                        <div style="align-self: center" class="social">
+                                            <div class="social">
+                                                <a target="_blank"
+                                                   href="https://github.com/kmgumienny/CS4341-Bomberman"><span
+                                                        class="fab fa-github fa-2x"></span></a>
+                                            </div>
+                                        </div>
+                                        <p> For the group assignment in Intro to AI, we used the concept of Q-learning,
+                                            an algorithm that
+                                            associates a value to its distance from a multitude of different objects
+                                            such as the exit and monsters, to build an AI that can play Bomberman
+                                            against random and smart adversaries. The AI prints its adjusted values
+                                            after every round and after
+                                            having completed enough rounds, it makes smart decisions by understanding
+                                            that being to the
+                                            exit is generally a good thing whereas being close to a monster is not.
+                                        </p>
+                                    </li>
+
+                                    <div>
+                                        <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
+                                            Python Crash Course</p>
+                                        <a href="https://github.com/kmgumienny/Python-Practice-Udemy" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                            Full Repository Here</a>
+                                        <hr class="soften">
+                                    </div>
+
+                                    <li class="submenuList">
+                                        <div style="align-self: center" class="social">
+                                            <div class="social">
+                                                <a target="_blank"
+                                                   href="https://github.com/kmgumienny/Python-Practice-Udemy"><span
+                                                        class="fab fa-github fa-2x"></span></a>
+                                            </div>
+                                        </div>
+                                        <p>To improve my skills in Python, I went off on my own and followed an
+                                            instructor on Udemy teaching a crash course on Python. The instructor
+                                            went from teaching the fundamentals of programming in Python all the way to
+                                            more advanced topics such as comprehensions, generators, and lambda
+                                            expressions.
+                                            Ultimately, this course taught me the fundamental differences between the
+                                            languages I knew and Python.
+                                        </p>
+                                    </li>
+                                    <div>
+                                        <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
                                             Algorithms</p>
-                                        <a href="https://github.com/kmgumienny/Algorithms-in-Python" target="_blank" style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                        <a href="https://github.com/kmgumienny/Algorithms-in-Python" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
                                             Full Repository Here</a>
                                         <hr class="soften">
                                     </div>
@@ -368,17 +512,24 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>My first time using Python was in my algorithms class. I wrote three programs that solve
-                                            three distinct problems. Those three problems were the Closest Point, Greatest Common Divisor,
-                                            and the Knapsack problems. I learned P vs NP problems, analyzing algorithm complexity, and
+                                        <p>My first time using Python was in my algorithms class. I wrote three programs
+                                            that solve
+                                            three distinct problems. Those three problems were the Closest Point,
+                                            Greatest Common Divisor,
+                                            and the Knapsack problems. I learned P vs NP problems, analyzing algorithm
+                                            complexity, and
                                             most importantly the merits of using Python.
                                         </p>
                                     </li>
 
+
                                 </ul>
+
+
                             </li>
                             <li>
-                                <div class="dropdownlink"><i class="fa fa-code" aria-hidden="true"></i> Node.js + HTML/CSS
+                                <div class="dropdownlink"><i class="fa fa-code" aria-hidden="true"></i> Node.js +
+                                    HTML/CSS
                                     <i class="fa fa-chevron-down" style="float: right;" aria-hidden="true"></i>
                                 </div>
                                 <ul class="submenuItems">
@@ -387,7 +538,8 @@
                                     <div>
                                         <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
                                             Webware</p>
-                                        <a href="https://github.com/kmgumienny/Node.js-Intro-Course" target="_blank" style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                        <a href="https://github.com/kmgumienny/Node.js-Intro-Course" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
                                             Full Repository Here</a>
                                         <hr class="soften">
                                     </div>
@@ -400,7 +552,13 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>Yeat was the final project for my Webware course with a Node.js backend and MongoDB database. It was a group assignment where I took charge of a majority of the backend, project organization, and some JS on the frontend. Yeat is a food waste mitigation app that allows event organizers to advertise leftover food to a forum board where people can apply to come and are given the location upon acceptance. The complete README can be found in the repository, outlining both technical and design achievements.
+                                        <p>Yeat was the final project for my Webware course with a Node.js backend and
+                                            MongoDB database. It was a group assignment where I took charge of a
+                                            majority of the backend, project organization, and some JS on the frontend.
+                                            Yeat is a food waste mitigation app that allows event organizers to
+                                            advertise leftover food to a forum board where people can apply to come and
+                                            are given the location upon acceptance. The complete README can be found in
+                                            the repository, outlining both technical and design achievements.
                                         </p>
                                     </li>
 
@@ -412,7 +570,12 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>The third assignment in my Webware class was a full stack application. This was an individual assignment and I decided to create a page for my fraternity where I can post the meals we will be having that week, a rating system for the cooks, and a request board for ingredients/snacks/etc.. we should buy for the upcoming week. Again, the full README explains all the achievements I was able to complete.
+                                        <p>The third assignment in my Webware class was a full stack application. This
+                                            was an individual assignment and I decided to create a page for my
+                                            fraternity where I can post the meals we will be having that week, a rating
+                                            system for the cooks, and a request board for ingredients/snacks/etc.. we
+                                            should buy for the upcoming week. Again, the full README explains all the
+                                            achievements I was able to complete.
                                         </p>
                                     </li>
 
@@ -428,7 +591,8 @@
                                     <div>
                                         <p style="text-align: center; color: black; padding-bottom: 0px; margin-top: 20px; font-size: medium;">
                                             Software Engineering</p>
-                                        <a href="https://github.com/kmgumienny/AWS-Software-Engineering" target="_blank" style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
+                                        <a href="https://github.com/kmgumienny/AWS-Software-Engineering" target="_blank"
+                                           style="text-align: center; color: #0000008a; font-size: small; padding-top: 0px">
                                             Full Repository Here</a>
                                         <hr class="soften">
                                     </div>
@@ -440,7 +604,13 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>This project has a backend that is hosted through lambda functions and a front end that is written in HTML with JS ajax functions. The project was written in a group of four where I spearheaded the frontend and designed the entire initial backend for our first iteration. The app is designed to be hosted on AWS using lambda functions. It is a scheduler that mimics when2meet.com, a web app that allows organizers to create schedules and set up meetings with others.
+                                        <p>This project has a backend that is hosted through lambda functions and a
+                                            front end that is written in HTML with JS ajax functions. The project was
+                                            written in a group of four where I spearheaded the frontend and designed the
+                                            entire initial backend for our first iteration. The app is designed to be
+                                            hosted on AWS using lambda functions. It is a scheduler that mimics
+                                            when2meet.com, a web app that allows organizers to create schedules and set
+                                            up meetings with others.
                                         </p>
                                     </li>
 
@@ -452,7 +622,12 @@
                                                         class="fab fa-github fa-2x"></span></a>
                                             </div>
                                         </div>
-                                        <p>The first project that we completed in Software Engineering was an individual project that taught the class the Entity-Boundry-Controller design pattern. The Klotski Puzzle's goal is to move a 2x2 block from the top of the game board to the bottom (requiring at minimum 90+ moves). Upon winning the user gets a congratulations message and is then he/she is allowed to go again! Fun!
+                                        <p>The first project that we completed in Software Engineering was an individual
+                                            project that taught the class the Entity-Boundry-Controller design pattern.
+                                            The Klotski Puzzle's goal is to move a 2x2 block from the top of the game
+                                            board to the bottom (requiring at minimum 90+ moves). Upon winning the user
+                                            gets a congratulations message and is then he/she is allowed to go again!
+                                            Fun!
                                         </p>
                                     </li>
 
@@ -543,17 +718,24 @@
                                      </div>
                                      <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
                                  </div>
-                             </li>
-
-                             <li>
-                                 <div class="direction-l">
-                                     <div class="flag-wrapper">
-                                         <span class="flag">Harvard University</span>
-                                         <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
-                                     </div>
-                                     <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
-                                 </div>
                              </li>-->
+
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">German Humanities Project</span>
+                                        <span class="time-wrapper"><span class="time">March - May 2019</span></span>
+                                    </div>
+                                    <div class="desc">During the second half of my second semester of Junior year at
+                                        WPI, I went on a humanitarian project in Berlin, Germany. I worked with Über den
+                                        Tellerrand, a non-government organization working in the field of refugee
+                                        integration. My team of four students was able to conduct a formal program
+                                        evaluation of the organization's cooking program and devise program evaluation
+                                        tool that I later hosted online through Node.js. The formal report for the
+                                        project can be found <a href="https://web.wpi.edu/Pubs/E-project/Available/E-project-050219-112352/">here</a>.
+                                    </div>
+                                </div>
+                            </li>
 
 
                             <li>
@@ -562,7 +744,12 @@
                                         <span class="flag">German Study Abroad</span>
                                         <span class="time-wrapper"><span class="time">Mar-Jul 2018</span></span>
                                     </div>
-                                    <div class="desc">After taking three German language classes, I applied to go to Konstanz, Germany and attend the Konstanz University of Applied Sciences (HTWG). I spent my weekdays going to courses on the Germany language, culture, and history and traveled around Germany, Italy, Switzerland, and Austria (for a brief 5 mintues) on the weekends.</div>
+                                    <div class="desc">After taking three German language classes at WPI, I applied to go to
+                                        Konstanz, Germany and attend the Konstanz University of Applied Sciences (HTWG).
+                                        I spent my weekdays going to courses on the Germany language, culture, and
+                                        history and traveled around Germany, Italy, Switzerland, and Austria in my free time to expand
+                                        my global competency.
+                                    </div>
                                 </div>
                             </li>
 
@@ -573,7 +760,14 @@
                                         <span class="flag">Theta Chi- Epsilon Chapter</span>
                                         <span class="time-wrapper"><span class="time"> Feb 2018- Present</span></span>
                                     </div>
-                                    <div class="desc">I pledged the Theta Chi fraternity at WPI where I held a position as Interim Secretary for a term my Junior year and will be the Secretary for the upcoming 2019-2020 school year.</div>
+                                    <div class="desc">I joined the Theta Chi fraternity at WPI. During my time at the
+                                        house I held a position
+                                        as Assistant Risk Manager (Feb 2018-Feb 2019), Interim Secretary (Aug -Dec
+                                        2019), and the formal Secretary position my Senior year. During my time as
+                                        Secretary I managed the house calendar, took attendance, and wrote/edited house
+                                        bylaws. I also served on the executive "bench" managing other executives and
+                                        resolving issues within the house.
+                                    </div>
                                 </div>
                             </li>
 
@@ -584,7 +778,14 @@
                                         <span class="flag">Security Analyst</span>
                                         <span class="time-wrapper"><span class="time">Jun 2017 - Present</span></span>
                                     </div>
-                                    <div class="desc">During my Freshman year summer, I received an internship working at Franklin Data in Newport Beach, CA. The company eventually re-branded into Nexem where I still currently work as an on-call consultant managing user education on phishing for our clients by both conducting phishing and user education campaigns.</div>
+                                    <div class="desc">During my Freshman year summer, I received an internship working
+                                        at Franklin Data (eventually re-branding into Nexem Technology) in Newport
+                                        Beach, CA.
+                                        I currently work as an on-call consultant managing user
+                                        education on phishing attacks for our clients by both conducting phishing
+                                        campaigns and user
+                                        education campaigns and writing formal reports regarding performance on both.
+                                    </div>
                                 </div>
                             </li>
 
@@ -595,7 +796,9 @@
                                         <span class="flag">Event Staff</span>
                                         <span class="time-wrapper"><span class="time">Aug 2016-Jun 2018</span></span>
                                     </div>
-                                    <div class="desc">As a part of my work-study, I spent time each week working at the WPI Recreational department helping manage sports games.</div>
+                                    <div class="desc">As a part of my work-study, I spent time each week working at the
+                                        WPI Recreational department helping manage sports games.
+                                    </div>
                                 </div>
                             </li>
 
@@ -605,7 +808,10 @@
                                         <span class="flag">Worcester Polytechnic Institute</span>
                                         <span class="time-wrapper"><span class="time">2016-2020</span></span>
                                     </div>
-                                    <div class="desc">I attend Worcester Polytechnic Institute as a Computer Science Major where I currently hold a 3.79 GPA.</div>
+                                    <div class="desc">I was accepted to Worcester Polytechnic Institute as a Computer
+                                        Science
+                                        Major.
+                                    </div>
                                 </div>
                             </li>
 
@@ -615,7 +821,10 @@
                                         <span class="flag">Java SE 7 Programmer I Cert.</span>
                                         <span class="time-wrapper"><span class="time">Jun 2016</span></span>
                                     </div>
-                                    <div class="desc">Right before graduating from high school, I took my exam to get Java certified and passed, which bolstered my confidence as a soon to be Computer Science student</div>
+                                    <div class="desc">Right before graduating from high school, I took my exam to get
+                                        Java certified and passed, which bolstered my confidence as a soon to be
+                                        Computer Science student
+                                    </div>
                                 </div>
                             </li>
 
@@ -626,7 +835,10 @@
                                         <span class="flag">Third Place in Cybersecurity</span>
                                         <span class="time-wrapper"><span class="time">Feb 2016</span></span>
                                     </div>
-                                    <div class="desc">During my Senior year of high school, I decided to again compete in FBLA. This time I decided to get into Cybersecurity, which I placed third in at the State competition. I realized then it would be my passion.</div>
+                                    <div class="desc">During my Senior year of high school, I decided to again compete
+                                        in FBLA. This time I decided to get into Cybersecurity, which I placed third in
+                                        at the State competition. I realized then it would be my passion.
+                                    </div>
                                 </div>
                             </li>
 
@@ -636,7 +848,11 @@
                                         <span class="flag">First Place in Network Design</span>
                                         <span class="time-wrapper"><span class="time">Feb 2015</span></span>
                                     </div>
-                                    <div class="desc">During my Junior year in high school, I decided to join FBLA, a competition between high schools in a variety of topics. I competed with my two best friends in Network Design and scored first place which landed us in Chicago for the FBLA National Conference.</div>
+                                    <div class="desc">During my Junior year in high school, I decided to join FBLA, a
+                                        competition between high schools in a variety of topics. I competed with my two
+                                        best friends in Network Design and scored first place which landed us in Chicago
+                                        for the FBLA National Conference.
+                                    </div>
                                 </div>
                             </li>
 
@@ -647,7 +863,10 @@
                                         <span class="flag">CompTIA A+ Certification</span>
                                         <span class="time-wrapper"><span class="time">Jun 2014</span></span>
                                     </div>
-                                    <div class="desc">During my sophomore year computer science class at UCVTS AIT, I became certified in CompTIA A+ and was able to use the skills to build my friend a computer from individual components!</div>
+                                    <div class="desc">During my sophomore year computer science class at UCVTS AIT, I
+                                        became certified in CompTIA A+ and was able to use the skills to build my friend
+                                        a computer from individual components!
+                                    </div>
                                 </div>
                             </li>
 
@@ -657,7 +876,9 @@
                                         <span class="flag">Microsoft Certifications</span>
                                         <span class="time-wrapper"><span class="time">Jun 2013</span></span>
                                     </div>
-                                    <div class="desc">During my freshman year computer science class at UCVTS AIT, I became certified in Microsoft Excel, Word, and PowerPoint</div>
+                                    <div class="desc">During my Freshman year Computer Science class at UCVTS AIT, I
+                                        became certified in Microsoft Excel, Word, and PowerPoint.
+                                    </div>
                                 </div>
                             </li>
 
@@ -668,7 +889,13 @@
                                         <span class="flag">UCVTS AIT</span>
                                         <span class="time-wrapper"><span class="time">2012 - 2016</span></span>
                                     </div>
-                                    <div class="desc">I attended the Union County Vocational Technical Schools Academy For Information Technology, a high achieving and fast paced magnet school, where I held a 90.8/100 QPA. During my time at this high school, I was introduced to Java programming which led to my pursuit of a computer science degree. In addition, I completed many AP classed including AP Calculus AB, Chemistry, English Literature, Computer Science, and Environmental Science.</div>
+                                    <div class="desc">I attended the Union County Vocational Technical Schools Academy
+                                        For Information Technology, a high achieving and fast paced magnet school, where
+                                        I held a 90.8/100 QPA. During my time at this high school, I was introduced to
+                                        Java programming which led to my pursuit of a computer science degree. In
+                                        addition, I completed many AP classed including AP Calculus AB, Chemistry,
+                                        English Literature, Computer Science, and Environmental Science.
+                                    </div>
                                 </div>
                             </li>
 
@@ -686,7 +913,6 @@
     </div>
 </div>
 </div>
-
 
 
 </div>
